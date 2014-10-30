@@ -61,8 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="JoesComicShopv2CoreModule.cs" />
+    <Compile Include="People\IPersonRepository.cs" />
     <Compile Include="People\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\ITaskRepository.cs" />
     <Compile Include="Tasks\Tasks.cs" />
     <Compile Include="Tasks\TaskState.cs" />
   </ItemGroup>
