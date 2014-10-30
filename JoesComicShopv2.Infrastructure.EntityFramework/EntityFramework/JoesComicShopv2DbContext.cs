@@ -1,13 +1,14 @@
 ﻿using System.Data.Entity;
 using Abp.Domain.Repositories.EntityFramework;
+using JoesComicShopv2.People;
+using JoesComicShopv2.Tasks;
 
 namespace JoesComicShopv2.EntityFramework
 {
     public class JoesComicShopv2DbContext : AbpDbContext
     {
-        //TODO: Define an IDbSet for each Entity...
-
-        //public virtual IDbSet<Person> People { get; set; } //Sample
+        public virtual IDbSet<Task> Tasks { get; set; }
+        public virtual IDbSet<Person> People { get; set; }
 
         public JoesComicShopv2DbContext()
             : base("MainDb")
@@ -15,13 +16,16 @@ namespace JoesComicShopv2.EntityFramework
 
         }
 
+        public JoesComicShopv2DbContext(string nameOrConnectionString)
+            : base(nameOrConnectionString)
+        {
+            
+        }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            //TODO: Make additional model setup...
-
-            //modelBuilder.Entity<Person>().ToTable("TsPeople"); //Sample
+            modelBuilder.Entity<Person>().ToTable("StsPeople");
+            modelBuilder.Entity<Task>().ToTable("StsTasks").HasOptional(t => t.AssignedPerson);
         }
     }
 }
