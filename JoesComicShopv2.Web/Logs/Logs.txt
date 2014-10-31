@@ -37,3 +37,16 @@ DEBUG 2014-10-29 23:05:13,897 [1    ] Abp.Modules.AbpModuleLoader              -
 DEBUG 2014-10-29 23:05:13,898 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: JoesComicShopv2.JoesComicShopv2WebApiModule, JoesComicShopv2.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 DEBUG 2014-10-29 23:05:13,898 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: JoesComicShopv2.Web.JoesComicShopv2WebModule, JoesComicShopv2.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 DEBUG 2014-10-29 23:05:14,175 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-10-30 18:02:21,370 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-10-30 18:02:21,458 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-10-30 18:02:21,459 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-10-30 18:02:21,461 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.EntityFramework.AbpEntityFrameworkModule, Abp.Infrastructure.EntityFramework, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-10-30 18:02:21,471 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-10-30 18:02:21,471 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-10-30 18:02:21,474 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-10-30 18:02:21,765 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: JoesComicShopv2.JoesComicShopv2CoreModule, JoesComicShopv2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-10-30 18:02:21,765 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: JoesComicShopv2.JoesComicShopv2ApplicationModule, JoesComicShopv2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-10-30 18:02:21,766 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: JoesComicShopv2.JoesComicShopv2DataModule, JoesComicShopv2.Infrastructure.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-10-30 18:02:21,767 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: JoesComicShopv2.JoesComicShopv2WebApiModule, JoesComicShopv2.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-10-30 18:02:21,767 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: JoesComicShopv2.Web.JoesComicShopv2WebModule, JoesComicShopv2.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-10-30 18:02:22,032 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
