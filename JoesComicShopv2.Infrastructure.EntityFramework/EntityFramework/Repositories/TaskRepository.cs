@@ -1,9 +1,7 @@
 ﻿using JoesComicShopv2.Tasks;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using JoesComicShopv2.Tasks;
 
 namespace JoesComicShopv2.EntityFramework.Repositories
 {

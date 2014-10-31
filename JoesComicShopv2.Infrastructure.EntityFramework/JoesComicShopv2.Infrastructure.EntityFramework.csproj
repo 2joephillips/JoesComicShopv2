@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="EntityFramework\JoesComicShopv2DbContext.cs" />
     <Compile Include="EntityFramework\Repositories\JoesComicShopv2RepositoryBase.cs" />
+    <Compile Include="EntityFramework\Repositories\PersonRepository.cs" />
     <Compile Include="EntityFramework\Repositories\TaskRepository.cs" />
     <Compile Include="JoesComicShopv2DataModule.cs" />
     <Compile Include="Migrations\201410300234078_InitialCreate.cs" />
