@@ -1,27 +1,26 @@
 ﻿using Abp.Domain.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using JoesComicShopv2.People.Dtos;
+﻿using System.Collections.Generic;
+using AutoMapper;
 
 namespace JoesComicShopv2.People
 {
-    class PersonAppService: IPersonAppService
+    public class PersonAppService : IPersonAppService //Optionally, you can derive from ApplicationService as we did for TaskAppService class.
     {
         private readonly IRepository<Person> _personRepository;
 
+        //ABP provides that we can directly inject IRepository<Person> (without creating any repository class)
         public PersonAppService(IRepository<Person> personRepository)
         {
             _personRepository = personRepository;
         }
 
-        public GetAllPeopleOutPut GetAllPeople()
+        public GetAllPeopleOutput GetAllPeople()
         {
-            return new GetAllPeopleOutPut
-            {
-                People = AutoMapper.Mapper<List<PersonDto>>(_personRepository.GetAllList())
-            };
+            return new GetAllPeopleOutput
+                   {
+                       People = Mapper.Map<List<PersonDto>>(_personRepository.GetAllList())
+                   };
         }
     }
 }
