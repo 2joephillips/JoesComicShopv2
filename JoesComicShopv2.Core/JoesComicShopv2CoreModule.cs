@@ -1,16 +1,13 @@
 ﻿using System.Reflection;
-using Abp.Dependency;
 using Abp.Modules;
-using Abp.Startup;
 
 namespace JoesComicShopv2
 {
     public class JoesComicShopv2CoreModule : AbpModule
     {
-        public override void Initialize(IAbpInitializationContext initializationContext)
+        public override void Initialize()
         {
-            base.Initialize(initializationContext);
-            IocManager.Instance.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
+            IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
         }
     }
 }

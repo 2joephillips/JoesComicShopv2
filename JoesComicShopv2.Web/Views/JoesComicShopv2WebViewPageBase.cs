@@ -11,7 +11,7 @@ namespace JoesComicShopv2.Web.Views
     {
         protected JoesComicShopv2WebViewPageBase()
         {
-            LocalizationSourceName = "JoesComicShopv2";
+            LocalizationSourceName = JoesComicShopv2Consts.LocalizationSourceName;
         }
     }
 }

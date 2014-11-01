@@ -1,29 +1,21 @@
-﻿using System;
-using System.Reflection;
-using Abp.Dependency;
+﻿using System.Reflection;
+using Abp.Application.Services;
 using Abp.Modules;
-using Abp.Startup;
-using Abp.Startup.Application;
-using Abp.WebApi.Startup;
+using Abp.WebApi;
+using Abp.WebApi.Controllers.Dynamic.Builders;
 
 namespace JoesComicShopv2
 {
+    [DependsOn(typeof(AbpWebApiModule), typeof(JoesComicShopv2ApplicationModule))]
     public class JoesComicShopv2WebApiModule : AbpModule
     {
-        public override Type[] GetDependedModules()
+        public override void Initialize()
         {
-            return new[]
-                   {
-                       typeof(AbpApplicationModule),
-                       typeof(AbpWebApiModule),
-                       typeof(JoesComicShopv2ApplicationModule)
-                   };
-        }
+            IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
 
-        public override void Initialize(IAbpInitializationContext initializationContext)
-        {
-            base.Initialize(initializationContext);
-            IocManager.Instance.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
+            DynamicApiControllerBuilder
+                .ForAll<IApplicationService>(typeof(JoesComicShopv2ApplicationModule).Assembly, "app")
+                .Build();
         }
     }
 }
