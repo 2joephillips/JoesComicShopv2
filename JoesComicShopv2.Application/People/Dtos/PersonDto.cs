@@ -7,7 +7,7 @@ using Abp.Application.Services.Dto;
 
 namespace JoesComicShopv2.People.Dtos
 {
-    class PersonDto : EntityDto
+    public class PersonDto : EntityDto
     {
         public string Name { get; set; }
     }

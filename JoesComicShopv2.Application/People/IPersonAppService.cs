@@ -1,4 +1,5 @@
 ﻿using Abp.Application.Services;
+using JoesComicShopv2.People.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +8,8 @@ using System.Threading.Tasks;
 
 namespace JoesComicShopv2.People
 {
-    class IPersonAppService
-    {
         public interface IPersonAppService : IApplicationService
         {
             GetAllPeopleOutput GetAllPeople();
         }
-    }
 }

@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JoesComicShopv2.People.Dtos
+namespace JoesComicShopv2.Tasks.Dtos
 {
-    public class GetAllPeopleOutput : IOutputDto
+    public class GetTasksOutput : IOutputDto
     {
-        public List<PersonDto> People { get; set; }
+        public List<TaskDto> Tasks { get; set; }
     }
 }
