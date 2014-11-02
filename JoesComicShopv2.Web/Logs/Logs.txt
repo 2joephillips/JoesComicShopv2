@@ -681,72 +681,15 @@ DEBUG 2014-10-28 23:57:37,759 [1    ] Abp.Modules.AbpModuleManager             -
 DEBUG 2014-10-28 23:57:37,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.JoesComicShopv2WebApiModule, JoesComicShopv2.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 DEBUG 2014-10-28 23:57:37,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.Web.JoesComicShopv2WebModule, JoesComicShopv2.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 DEBUG 2014-10-28 23:57:37,761 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
-DEBUG 2014-11-01 19:10:18,991 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
-DEBUG 2014-11-01 19:10:19,757 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.1.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:19,770 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
-DEBUG 2014-11-01 19:10:19,770 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
-DEBUG 2014-11-01 19:10:19,770 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:19,774 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
-DEBUG 2014-11-01 19:10:19,774 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
-DEBUG 2014-11-01 19:10:19,774 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:19,783 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
-DEBUG 2014-11-01 19:10:19,783 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
-DEBUG 2014-11-01 19:10:19,783 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:19,784 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
-DEBUG 2014-11-01 19:10:19,784 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
-DEBUG 2014-11-01 19:10:19,784 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:19,787 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
-DEBUG 2014-11-01 19:10:19,787 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
-DEBUG 2014-11-01 19:10:19,787 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
-DEBUG 2014-11-01 19:10:19,796 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
-DEBUG 2014-11-01 19:10:19,810 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
-DEBUG 2014-11-01 19:10:19,811 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
-DEBUG 2014-11-01 19:10:19,855 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
-DEBUG 2014-11-01 19:10:19,855 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
-DEBUG 2014-11-01 19:10:19,855 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
-DEBUG 2014-11-01 19:10:19,864 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-DEBUG 2014-11-01 19:10:20,170 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-DEBUG 2014-11-01 19:10:20,179 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: JoesComicShopv2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,180 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
-DEBUG 2014-11-01 19:10:20,180 [1    ] Abp.Modules.DefaultModuleFinder          - - JoesComicShopv2.JoesComicShopv2ApplicationModule
-DEBUG 2014-11-01 19:10:20,180 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: JoesComicShopv2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,180 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
-DEBUG 2014-11-01 19:10:20,180 [1    ] Abp.Modules.DefaultModuleFinder          - - JoesComicShopv2.JoesComicShopv2CoreModule
-DEBUG 2014-11-01 19:10:20,180 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: JoesComicShopv2.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,181 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
-DEBUG 2014-11-01 19:10:20,181 [1    ] Abp.Modules.DefaultModuleFinder          - - JoesComicShopv2.JoesComicShopv2DataModule
-DEBUG 2014-11-01 19:10:20,181 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: JoesComicShopv2.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,181 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
-DEBUG 2014-11-01 19:10:20,181 [1    ] Abp.Modules.DefaultModuleFinder          - - JoesComicShopv2.Web.JoesComicShopv2WebModule
-DEBUG 2014-11-01 19:10:20,181 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: JoesComicShopv2.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,181 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
-DEBUG 2014-11-01 19:10:20,182 [1    ] Abp.Modules.DefaultModuleFinder          - - JoesComicShopv2.JoesComicShopv2WebApiModule
-DEBUG 2014-11-01 19:10:20,182 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
-DEBUG 2014-11-01 19:10:20,192 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
-DEBUG 2014-11-01 19:10:20,218 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-DEBUG 2014-11-01 19:10:20,245 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-DEBUG 2014-11-01 19:10:20,245 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-DEBUG 2014-11-01 19:10:20,256 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-DEBUG 2014-11-01 19:10:20,256 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-DEBUG 2014-11-01 19:10:20,256 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-DEBUG 2014-11-01 19:10:20,288 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-DEBUG 2014-11-01 19:10:20,324 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-DEBUG 2014-11-01 19:10:20,328 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-DEBUG 2014-11-01 19:10:20,373 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-DEBUG 2014-11-01 19:10:20,377 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-DEBUG 2014-11-01 19:10:20,392 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-DEBUG 2014-11-01 19:10:20,392 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-DEBUG 2014-11-01 19:10:20,400 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-DEBUG 2014-11-01 19:10:20,401 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-DEBUG 2014-11-01 19:10:20,457 [1    ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
-DEBUG 2014-11-01 19:10:20,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.1.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,466 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.JoesComicShopv2ApplicationModule, JoesComicShopv2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.JoesComicShopv2CoreModule, JoesComicShopv2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.JoesComicShopv2DataModule, JoesComicShopv2.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.Web.JoesComicShopv2WebModule, JoesComicShopv2.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.JoesComicShopv2WebApiModule, JoesComicShopv2.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-DEBUG 2014-11-01 19:10:20,505 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2014-11-01 20:51:01,503 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-01 20:51:02,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-01 20:51:02,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-01 20:51:02,957 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-01 20:51:02,957 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-01 20:51:02,957 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-01 20:51:02,957 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.JoesComicShopv2ApplicationModule, JoesComicShopv2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-01 20:51:02,957 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.JoesComicShopv2CoreModule, JoesComicShopv2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-01 20:51:02,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.JoesComicShopv2DataModule, JoesComicShopv2.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-01 20:51:02,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.Web.JoesComicShopv2WebModule, JoesComicShopv2.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-01 20:51:02,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JoesComicShopv2.JoesComicShopv2WebApiModule, JoesComicShopv2.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-01 20:51:02,961 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
