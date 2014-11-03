@@ -1,41 +1,37 @@
 ﻿using Abp.EntityFramework;
+using JoesComicShopv2.Comics;
+using JoesComicShopv2.Customers;
+using JoesComicShopv2.PullLists;
+using System.Data.Entity;
 
 namespace JoesComicShopv2.EntityFramework
 {
     public class JoesComicShopv2DbContext : AbpDbContext
     {
-        //TODO: Define an IDbSet for each Entity...
+        public virtual IDbSet<Comic> Comics { get; set; }
+        public virtual IDbSet<PullList> PullLists { get; set; }
+        public virtual IDbSet<Customer> Customers { get; set; }
 
-        //Example:
-        //public virtual IDbSet<User> Users { get; set; }
-
-        /* NOTE: 
-         *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.
-         *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not
-         *   pass connection string name to base classes. ABP works either way.
-         */
         public JoesComicShopv2DbContext()
             : base("Default")
         {
 
         }
 
-        /* NOTE:
-         *   This constructor is used by ABP to pass connection string defined in JoesComicShopv2DataModule.PreInitialize.
-         *   Notice that, actually you will not directly create an instance of JoesComicShopv2DbContext since ABP automatically handles it.
-         */
+
         public JoesComicShopv2DbContext(string nameOrConnectionString)
             : base(nameOrConnectionString)
         {
 
         }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Comic>().ToTable("Comics");
+            modelBuilder.Entity<Customer>().ToTable("Customers");
+            modelBuilder.Entity<PullList>().ToTable("PullLists");
+        }
     }
-
-    //Example:
-    //public class User : Entity
-    //{
-    //    public string Name { get; set; }
-
-    //    public string Password { get; set; }
-    //}
 }
