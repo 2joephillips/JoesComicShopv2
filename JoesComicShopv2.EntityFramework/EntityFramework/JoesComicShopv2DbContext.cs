@@ -24,14 +24,5 @@ namespace JoesComicShopv2.EntityFramework
         {
 
         }
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Comic>().ToTable("Comics");
-            modelBuilder.Entity<Customer>().ToTable("Customers");
-            modelBuilder.Entity<PullList>().ToTable("PullLists");
-        }
     }
 }
